@@ -11,4 +11,9 @@ public class AdderTest {
 	public void shouldReturn5For2Plus3() {
 		assertThat(adder.add(2, 3), is(5));
 	}
+
+	@Test
+	public void shouldReturn7For3Plus4() {
+		assertThat(adder.add(3, 4), is(7));
+	}
 }
